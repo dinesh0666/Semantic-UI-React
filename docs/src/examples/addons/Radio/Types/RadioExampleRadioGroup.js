@@ -19,6 +19,22 @@ export default class RadioExampleRadioGroup extends Component {
             checked={this.state.value === 'this'}
             onChange={this.handleChange}
           />
+      <Form.Field>
+          <Radio
+            label='Choose this'
+            name='radioGroup'
+            value='this'
+            checked={this.state.value === 'it'}
+            onChange={this.handleChange}
+          />
+       <Form.Field>
+          <Radio
+            label='Choose this'
+            name='radioGroup'
+            value='this'
+            checked={this.state.value === 'thus'}
+            onChange={this.handleChange}
+          />
         </Form.Field>
         <Form.Field>
           <Radio
